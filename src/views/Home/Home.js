@@ -9,9 +9,9 @@ export default function Home() {
   // add useState calls here for title, subtitle, font, align, and text
   const [title, setTitle] = useState('');
   const [subtitle, setSubtitle] = useState('');
-  const [font, setFont] = useState('serif');
+  const [font, setFont] = useState('Roboto');
   const [align, setAlign] = useState('center');
-  const [text, setText] = useState('huwwo');
+  const [text, setText] = useState('');
 
   return (
     <main>
